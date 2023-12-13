@@ -1,0 +1,161 @@
+@charset "UTF-8";
+header .img-logo {
+  width: 100px;
+  height: auto;
+  border-radius: 5px;
+}
+
+#page-footer {
+  background-color: #005BAB;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 600px;
+  /*
+  estilos para la animacion
+  height: 450px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  flex-wrap: wrap;
+  */
+  /*
+  .contenido {
+      padding: 10px;
+      margin-bottom: 10px;
+  }
+
+  p{
+      margin-top: 10px;
+      margin-left: 300px;
+      font-size: 15px;
+
+  }
+  */
+}
+#page-footer .container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  margin-right: 200px;
+}
+#page-footer .container .text-negocios {
+  font-size: 15px;
+  text-align: justify;
+}
+#page-footer .container .text-negocios h2 {
+  font-size: 20px;
+}
+#page-footer .container .text-negocios ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; /* Elimina los estilos de la lista por defecto */
+}
+#page-footer .container .text-negocios ul li {
+  margin-bottom: 5px; /* Establece un margen de 15 píxeles en la parte inferior del elemento */
+}
+#page-footer .container .text-negocios ul li a {
+  text-decoration: none; /* Elimina el subrayado predeterminado del enlace */
+  color: white; /* Cambia el color del enlace según tus preferencias */
+}
+#page-footer .container .text-negocios ul li a:hover {
+  transform: scale(0.1);
+  color: rgb(173, 173, 173);
+}
+#page-footer .container .text-more-information {
+  font-size: 15px;
+  text-align: justify;
+}
+#page-footer .container .text-more-information h2 {
+  font-size: 20px;
+}
+#page-footer .container .text-more-information ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; /* Elimina los estilos de la lista por defecto */
+}
+#page-footer .container .text-more-information ul li {
+  margin-bottom: 9px; /* Establece un margen de 15 píxeles en la parte inferior del elemento */
+}
+#page-footer .container .text-more-information ul li a {
+  text-decoration: none; /* Elimina el subrayado predeterminado del enlace */
+  color: white; /* Cambia el color del enlace según tus preferencias */
+}
+#page-footer .container .icons-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#page-footer .container .icons-footer a {
+  text-decoration: none;
+  color: white;
+}
+#page-footer .container .icons-footer a:hover {
+  transform: scale(1.05);
+  transition: all 500ms ease;
+}
+#page-footer .container .icons-footer i {
+  font-size: 20px;
+  padding: 30px;
+}
+#page-footer .container .img-logo-white {
+  height: 100px;
+  display: flex;
+  justify-content: start;
+  margin-top: 65px;
+  margin-left: -350px;
+  width: 100px;
+}
+#page-footer .content-info {
+  display: flex;
+  justify-content: space-between;
+}
+#page-footer .content-info p {
+  margin-right: 64px;
+}
+#page-footer .copyright {
+  display: flex;
+  justify-content: start;
+  width: 100%;
+  height: auto;
+  background-color: black;
+}
+#page-footer .copyright p {
+  font-size: 13px;
+  margin-left: 10px;
+  margin-top: 9px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 375px) {
+  footer {
+    height: 110px;
+  }
+  footer p {
+    margin-top: 0px;
+    margin-left: 0px;
+    font-size: 13px;
+  }
+  footer .icons-footer {
+    margin-right: 0px;
+  }
+  footer .icons-footer i {
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  footer {
+    flex-direction: column;
+  }
+  .icons-footer {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

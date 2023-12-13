@@ -1,0 +1,79 @@
+//vista 320 px a 375px
+@media only screen and (min-width: 320px) and (max-width:375px){
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    //footer
+    footer {
+        height: 110px;
+       
+        p{
+            margin-top: 0px;
+            margin-left: 0px;
+            font-size: 13px;
+        }
+        .icons-footer {
+            
+            margin-right: 0px;
+
+            i {
+                font-size: 18px; 
+            }
+        }
+    
+    
+    }
+}
+//vista 375 px a 425px
+@media only screen and (min-width: 375px) and (max-width:425px){
+
+}
+//vista 425px a 768px
+@media only screen and (min-width: 425px) and (max-width:768px){
+
+}
+//vista tablet
+//vista 768px a 1024px
+@media only screen and (min-width: 425px) and (max-width:1023px){
+
+}
+// Media query para ajustes en dispositivos más pequeños
+@media only screen and (max-width: 600px) {
+   footer{
+    flex-direction: column;
+   }
+
+    .icons-footer {
+        flex-direction: row; // Muestra los íconos en fila en dispositivos más pequeños
+        justify-content: center; // Centra los íconos horizontalmente
+    }
+}

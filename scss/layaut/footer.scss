@@ -1,0 +1,170 @@
+#page-footer{
+    background-color: #005BAB;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 600px;
+
+    
+    
+
+    /*
+    estilos para la animacion
+    height: 450px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    flex-wrap: wrap;
+    */
+
+    /*
+    .contenido {
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
+    p{
+        margin-top: 10px;
+        margin-left: 300px;
+        font-size: 15px;
+
+    }
+    */
+
+
+    //Contenedor de las listas
+    .container{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 100px;
+        
+        margin-right: 200px;
+        .text-negocios {
+      
+            font-size: 15px;
+            text-align: justify;
+            
+            h2{
+                font-size: 20px;
+            }
+            ul {
+                margin: 0;
+                padding: 0;
+                
+                
+                list-style: none; /* Elimina los estilos de la lista por defecto */
+                
+              li{
+                margin-bottom: 5px;/* Establece un margen de 15 píxeles en la parte inferior del elemento */
+                
+                a {
+                  text-decoration: none; /* Elimina el subrayado predeterminado del enlace */
+                  color: white; /* Cambia el color del enlace según tus preferencias */
+                  &:hover{
+                    transform: scale(0.1);
+                    color: rgb(173, 173, 173);
+                  }
+                }
+              }
+             
+            }
+        }
+        .text-more-information{
+          
+            font-size: 15px;
+            text-align: justify;
+            
+            h2{
+                font-size: 20px;
+            }
+            ul{
+                margin: 0;
+                padding: 0;
+                list-style: none; /* Elimina los estilos de la lista por defecto */
+    
+                li{
+                    margin-bottom: 9px;/* Establece un margen de 15 píxeles en la parte inferior del elemento */
+    
+                  a{
+                    text-decoration: none; /* Elimina el subrayado predeterminado del enlace */
+                    color: white; /* Cambia el color del enlace según tus preferencias */
+                    
+                  }
+                }
+              }
+          
+        }
+    
+        .icons-footer {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+           
+            a{
+                
+                text-decoration: none;
+                color: white;
+                &:hover{
+                    transform: scale(1.05);
+                    transition: all 500ms ease;
+                    // color: #0b3859;
+                }
+            }
+            i{
+                
+                font-size: 20px;
+                padding: 30px;
+    
+               
+            }
+        }
+        
+        //Logo UAA
+        .img-logo-white{
+            
+            height: 100px;
+            display: flex;
+            justify-content: start;
+            margin-top: 65px;
+            margin-left: -350px;
+            width: 100px;
+           
+        }
+        
+        
+    }
+  
+  
+    .content-info{
+        display: flex;
+        justify-content: space-between;
+       
+       
+        p{
+            margin-right: 64px;
+           
+        }
+    }
+    .copyright{
+        display: flex;
+        justify-content: start;
+        width: 100%;
+        height: auto;
+        background-color: black;
+       
+        
+        p{
+            font-size: 13px;
+            margin-left: 10px;
+            margin-top: 9px;
+        }
+    }
+}
+

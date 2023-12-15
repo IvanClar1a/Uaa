@@ -1,11 +1,31 @@
+.navbar {
+  background-color:  #015ab3;
+}
 
+// Estilos para la imagen del logo
+.img-logo {
+  max-width: 100px; // Ajusta el tamaño según tus necesidades
+  margin-right: 20px; // Agrega margen a la derecha de la imagen
+}
 
-header{
-    .img-logo{
-        // Estilos para la imagen aquí
-        width: 100px; // Ejemplo: establecer el ancho a 100px
-        height: auto; // Ejemplo: mantener la proporción original de la imagen
-        border-radius: 5px; // Ejemplo: bordes redondeados
-        // Agrega cualquier otro estilo que desees
-    }
+// Alinea el contenido de la navbar a la derecha
+.navbar-nav {
+  margin-left: auto;
+}
+
+.nav-link {
+  color: #015ab3;
+}
+
+.nav-link.active {
+  font-weight: bold;
+}
+
+.dropdown-menu {
+  background-color: #015ab3;
+}
+
+// Alinea el texto del dropdown a la izquierda
+.dropdown-menu a {
+  text-align: left;
 }
